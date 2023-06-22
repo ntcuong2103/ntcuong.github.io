@@ -2,16 +2,17 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='https://hcmuni.fpt.edu.vn/'>FPT University </a>
+# . Address. Contacts. Moto. Etc.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: cuong.jpg
   image_circular: false # crops the image to make it circular
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  # address: >
+  #   <p>Room 702 </p>
+  #   <p>Lô E2a-7, Đường D1, Đ. D1, Long Thạnh Mỹ, Thành Phố Thủ Đức</p>
+  #   <p>Thành phố Hồ Chí Minh 700000 </p>
 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
@@ -19,8 +20,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Cuong Tuan Nguyen is a lecturer/researcher at FPT university in Ho Chi Minh city, Vietnam. He received his B.Eng. in Computer Engineering from Ho Chi Minh University of Technology, M.Sc. and Ph.D. in Computer Science from Tokyo University of Agriculture and Technology (TUAT) in 2011, 2014 and 2017, respectively. He had been an assistant professor at TUAT from 2017 to 2022. He has been working on online and offline handwritten math recognition, clustering and automatic scoring. Co-organized VOHTR2018 competition on Vietnamese online handwriting recognition and CROHME 2023 competition in recognizing handwritten mathematical expression.  
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
