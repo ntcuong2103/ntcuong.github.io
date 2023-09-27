@@ -2,6 +2,7 @@
 ---
 
 @article{Truong2022,
+abbr = {PRL},
 abstract = {This paper proposes tree-based decomposition and sub-expression interchange for generating new syntactically valid handwritten mathematical expressions (HMEs) from a given set of HMEs to train an HME recognition model and a mathematical language model (LM). The recognition model is dual trained using weakly supervised learning and encoder-decoder attention loss on the generated samples. Recognition experiments indicate that the proposed data generation method is superior to other such methods for offline HMEs. The HME recognition model increases the expression recognition rates by 1.47, 2.88, and 2.67 points on the Competition on Recognition of Online Handwritten Mathematical Expressions (CROHME) 2014, 2016, and 2019 testing sets, respectively. The LM also increases them by 8.92, 6.88, and 2.59 points on the testing sets. Further adding extra LaTeX sequences is cost effective in strengthening the LM for the expression recognition rates being 2.54, 2.8, and 1.25 points higher than without them on the CROHME testing sets, respectively. Among academic systems, the trained HME recognition system achieves the best performance with 64.60{\%} and 66.08{\%} expression recognition rates on the CROHME 2014 and 2016 testing sets and a comparable expression recognition rate of 58.72{\%} on the CROHME 2019 testing set, respectively. Comparison with top systems from companies on CROHME 2019 suggests that more real and/or generated HME patterns will improve the performance of HME recognition models as well as mathematical language models.},
 author = {Truong, Thanh Nghia and Nguyen, Cuong Tuan and Nakagawa, Masaki},
 doi = {10.1016/j.patrec.2021.12.002},
@@ -14,6 +15,7 @@ volume = {153},
 year = {2022}
 }
 @article{Ung2021,
+abbr = {PRL},
 abstract = {To help human markers mark many answers in the form of online handwritten mathematical expressions (OHMEs), this paper proposes bag-of-features for clustering OHMEs. It consists of six levels of features from low-level pattern features to high-level symbolic and structural features obtained from a state-of-the-art OHME recognizer. Then, it introduces distance-based representation (DbR) to reduce the dimensionality of our proposed feature spaces. Moreover, it presents a method for combining the proposed features to improve the performance. Experiments using the k-means++ algorithm are conducted on a set of 3,150 OHMEs (Dset{\_}50) and an answer dataset (Dset{\_}Mix) of 200 OHMEs intermixed between real patterns and synthesized patterns for each of 10 questions. When the number of clusters is set as the true number of categories, the best purity around 0.99 is produced by bag-of-symbols with DbR for Dset{\_}50, which is better than state-of-the-art methods for clustering offline patterns converted from their OHMEs. The combination of both low-level and high-level features with DbR achieves a purity of around 0.777, increases to more than 0.90 and reduce the marking cost by more than 0.35 point than manually marking OHME answers by adjusting the number of clusters for Dset{\_}Mix.},
 author = {Ung, Huy Quang and Nguyen, Cuong Tuan and Phan, Khanh Minh and Khuong, Vu Tran Minh and Nakagawa, Masaki},
 doi = {10.1016/j.patrec.2021.03.027},
@@ -41,6 +43,7 @@ volume = {E104D},
 year = {2021}
 }
 @article{Ly2020134,
+abbr = {PRL},
 abstract = {This paper presents an attention-based row-column encoder-decoder (ARCED) model for recognizing an input image of multiple text lines from Japanese historical documents without explicit segmentation of lines. The recognition system has three main parts: a feature extractor, a row-column encoder, and a decoder. We introduce a row-column BLSTM in the encoder and a residual LSTM network in the decoder. The whole system is trained end-to-end by a standard cross-entropy loss function, requiring only document images and their ground-truth text. We experimentally evaluate the performance of ARCED on the dataset of Japanese historical documents: Kana-PRMU. The results of the experiments show that ARCED outperforms the state-of-the-art recognition methods on the dataset. Furthermore, we demonstrate that the row-column BLSTM in the encoder and the residual LSTM in the decoder improves the performance of the encoder-decoder model for the recognition of Japanese historical document.},
 annote = {cited By 0},
 author = {Ly, Nam Tuan and Nguyen, Cuong Tuan and Nakagawa, Masaki},
@@ -70,6 +73,7 @@ volume = {23},
 year = {2020}
 }
 @article{Nguyen20208,
+abbr = {PRL},
 abstract = {Nom is an ancient script used in Vietnam until the current Latin-based Vietnamese alphabet became common, and a large number of ancient Nom documents are in existence. Due to the gradual degradation of Nom documents and a decrease in the number of scholars who can understand them, a system to digitalize Nom documents is urgently necessary. This paper presents a segmentation-based method for digitalizing Nom documents using deep convolution neural networks. Nom pages are preprocessed, segmented into isolated characters, and then recognized by a single-character OCR. The structure of the U-Net is applied to create segmentation maps and extract character regions from them. Subsequently, we propose coarse and fine combined classifiers to recognize each character pattern. The results by the best classifier are revised by a decoder using a langue model. The decoder is the same as the connectionist temporal classification decoder used in end-to-end text recognition systems. Compared with the traditional segmentation method using projection profiles and the Voronoi diagram (IoU = 81.23{\%}), the segmentation method using the deep convolution neural network produces a better result (IoU = 92.08{\%}) for detecting character regions. The proposed CNN models for recognizing segmented character patterns outperforms the traditional models using the modified quadratic discriminant function and the learning vector quantization with the recognition rate of 85.07{\%}. The combination of coarse and fine classifiers, the training dataset with salt and pepper noises, and the attention layer are the key factors in the recognition rate improvement.},
 annote = {cited By 0},
 author = {Nguyen, Kha Cong and Nguyen, Cuong Tuan and Nakagawa, Masaki},
@@ -83,6 +87,7 @@ volume = {133},
 year = {2020}
 }
 @article{Nguyen2020113,
+abbr = {PRL},
 abstract = {To help human markers mark a large number of answers of handwritten mathematical expressions (HMEs), clustering them makes marking more efficient and reliable. Clustering HMEs, however, faces the problem of extracting both localization and classification representation of mathematical symbols for an HME image and defining the distance between two HME images. First, we propose a method based on Convolutional Neural Networks (CNN) to extract the representations for an HME. Symbols in various scales are located and classified by a combination of features from a multi-scale CNN. We use weakly supervised training combined with symbols attention to enhance localization and classification predictions. Second, we propose a multi-level spatial distance between two representations for clustering HMEs. Experiments on CROHME 2016 and CROHME 2019 dataset show the promising results of 0.99 and 0.96 in purity, respectively.},
 annote = {cited By 1},
 author = {Nguyen, Cuong Tuan and Khuong, Vu Tran Minh and Nguyen, Hung Tuan and Nakagawa, Masaki},
@@ -112,6 +117,7 @@ volume = {22},
 year = {2019}
 }
 @article{Nguyen2019,
+abbr = {PRL},
 abstract = {Writing Kanji characters of Chinese origin in the correct stroke order and direction is still one of the important subjects in Japanese elementary education. So far, the stroke order evaluation was made by stroke-to-stroke matching without stroke context so that it was unrobust to Kanji characters having multiple similar strokes. Here, we employ shape context features around each feature point in not only conventional fan-shaped bins but also in square bins with applying a Gaussian function. We also propose simple incremental context and augmented context from future strokes. Our approach can judge whether the stroke order and direction are correct or not every time a new stroke is written on a tablet by matching a partially written Kanji pattern with the reference pattern written to the same number of strokes. Evaluation shows that the best-tuned method with square bins and the Gaussian function records the highest performance and correctly evaluates stroke order by 98.5{\%} with the maximum time of 0.12 sec. /character for Kanji patterns after all strokes are written using an average desktop PC. The method is also shown to possess high reliability to detect wrong stroke order and direction incrementally every time after each stroke is written.},
 author = {Nguyen, Cuong Tuan and Nguyen, Hung Tuan and Mita, Kazuhiro and Nakagawa, Masaki},
 doi = {10.1016/j.patrec.2018.07.025},
@@ -138,6 +144,7 @@ volume = {E102D},
 year = {2019}
 }
 @article{Nguyen2019104,
+abbr = {PRL},
 abstract = {The text-independent approach to writer identification does not require the writer to write some predetermined text. Previous research on text-independent writer identification has been based on identifying writer-specific features designed by experts. However, in the last decade, deep learning methods have been successfully applied to learn features from data automatically. We propose here an end-to-end deep-learning method for text-independent writer identification that does not require prior identification of features. A Convolutional Neural Network (CNN) is trained initially to extract local features, which represent characteristics of individual handwriting in the whole character images and their sub-regions. Randomly sampled tuples of images from the training set are used to train the CNN and aggregate the extracted local features of images from the tuples to form global features. For every training epoch, the process of randomly sampling tuples is repeated, which is equivalent to a large number of training patterns being prepared for training the CNN for text-independent writer identification. We conducted experiments on the JEITA-HP database of offline handwritten Japanese character patterns. With 200 characters, our method achieved an accuracy of 99.97{\%} to classify 100 writers. Even when using 50 characters for 100 writers or 100 characters for 400 writers, our method achieved accuracy levels of 92.80{\%} or 93.82{\%}, respectively. We conducted further experiments on the Firemaker and IAM databases of offline handwritten English text. Using only one page per writer to train, our method achieved over 91.81{\%} accuracy to classify 900 writers. Overall, we achieved a better performance than the previously published best result based on handcrafted features and clustering algorithms, which demonstrates the effectiveness of our method for handwritten English text also.},
 annote = {From Duplicate 1 (Text-independent writer identification using convolutional neural network - Nguyen, Hung Tuan; Nguyen, Cuong Tuan; Ino, Takeya; Indurkhya, Bipin; Nakagawa, Masaki)
 
@@ -162,6 +169,7 @@ volume = {121},
 year = {2019}
 }
 @article{Nguyen2018291,
+abbr = {PR},
 abstract = {We present our efforts to create a database of unconstrained Vietnamese online handwritten text sampled from pen-based devices. The database stores handwritten text for paragraphs, lines, words, and characters, with the ground truth associated with every paragraph and line. We show a detailed statistical analysis of the handwritten text in this database and describe recognition experiments using several recent methods including the Bidirectional Long Short-Term Memory (BLSTM) network. Overall, our database contains over 480,000 strokes from more than 380,000 characters, which, at present, is the largest database of Vietnamese online handwritten text. Although Vietnamese script is based on a fixed set of alphabet letters, the recognition of Vietnamese online handwritten text poses a difficult challenge because of many diacritical marks, which usually result in delayed strokes during writing. We designed and implemented an online handwriting-collection tool to gather data, as well as a line-segmentation tool and a delayed-stroke-detection tool to analyze collected handwritten text. We also conducted a statistical analysis based on the writer profiles. We applied a number of the state-of-the-art recognition methods on unconstrained Vietnamese handwriting to evaluate their performance, including the BLSTM network, which is an efficient architecture derived from the Recurrent Neural Network (RNN) and is often applied to sequence labeling problems. The BLSTM network achieved 90{\%} character recognition accuracy, despite many long sequences with several delayed strokes. Our database is allowed open access for research to stimulate the development of handwriting research technology.},
 annote = {cited By 11},
 author = {Nguyen, Hung Tuan and Nguyen, Cuong Tuan and Bao, Pham The and Nakagawa, Masaki},
@@ -234,6 +242,7 @@ volume = {13355 LNCS},
 year = {2022}
 }
 @inproceedings{Ung2021a,
+abbr = {ICDAR-W},
 abstract = {Handwritten mathematical expressions (HMEs) contain ambiguities in their interpretations, even for humans sometimes. Several math symbols are very similar in the writing style, such as dot and comma or “0”, “O”, and “o”, which is a challenge for HME recognition systems to handle without using contextual information. To address this problem, this paper presents a Transformer-based Math Language Model (TMLM). Based on the self-attention mechanism, the high-level representation of an input token in a sequence of tokens is computed by how it is related to the previous tokens. Thus, TMLM can capture long dependencies and correlations among symbols and relations in a mathematical expression (ME). We trained the proposed language model using a corpus of approximately 70,000 LaTeX sequences provided in CROHME 2016. TMLM achieved the perplexity of 4.42, which outperformed the previous math language models, i.e., the N-gram and recurrent neural network-based language models. In addition, we combine TMLM into a stochastic context-free grammar-based HME recognition system using a weighting parameter to re-rank the top-10 best candidates. The expression rates on the testing sets of CROHME 2016 and CROHME 2019 were improved by 2.97 and 0.83 percentage points, respectively.},
 address = {Lausane},
 author = {Ung, Huy Quang and Nguyen, Cuong Tuan and Nguyen, Hung Tuan and Truong, Thanh Nghia and Nakagawa, Masaki},
@@ -250,6 +259,7 @@ volume = {12917 LNCS},
 year = {2021}
 }
 @inproceedings{Nguyen2021,
+abbr = {ICDAR},
 abstract = {This paper presents a temporal classification method for all three subtasks of symbol segmentation, symbol recognition and relation classification in online handwritten mathematical expressions (HMEs). The classification model is trained by multiple paths of symbols and spatial relations derived from the Symbol Relation Tree (SRT) representation of HMEs. The method benefits from global context of a deep bidirectional Long Short-term Memory network, which learns the temporal classification directly from online handwriting by the Connectionist Temporal Classification loss. To recognize an online HME, a symbol-level parse tree with Context-Free Grammar is constructed, where symbols and spatial relations are obtained from the temporal classification results. We show the effectiveness of the proposed method on the two latest CROHME datasets.},
 address = {Lausane},
 author = {Nguyen, Cuong Tuan and Truong, Thanh Nghia and Nguyen, Hung Tuan and Nakagawa, Masaki},
@@ -261,6 +271,7 @@ volume = {12822 LNCS},
 year = {2021}
 }
 @inproceedings{Ung2021b,
+abbr = {ICDAR},
 abstract = {Toward a computer-assisted marking for descriptive math questions, this paper presents clustering of online handwritten mathematical expressions (OnHMEs) to help human markers to mark them efficiently and reliably. We propose a generative sequence similarity function for computing a similarity score of two OnHMEs based on a sequence-to-sequence OnHME recognizer. Each OnHME is represented by a similarity-based representation (SbR) vector. The SbR matrix is inputted to the k-means algorithm for clustering OnHMEs. Experiments are conducted on an answer dataset (Dset{\_}Mix) of 200 OnHMEs mixed of real patterns and synthesized patterns for each of 10 questions and a real online handwritten mathematical answer dataset of 122 student answers at most for each of 15 questions (NIER{\_}CBT). The best clustering results achieved around 0.916 and 0.915 for purity, and around 0.556 and 0.702 for the marking cost on Dset{\_}Mix and NIER{\_}CBT, respectively. Our method currently outperforms the previous methods for clustering HMEs.},
 address = {Lausane},
 author = {Ung, Huy Quang and Nguyen, Cuong Tuan and Nguyen, Hung Tuan and Nakagawa, Masaki},
@@ -272,6 +283,7 @@ volume = {12822 LNCS},
 year = {2021}
 }
 @inproceedings{Truong2021a,
+abbr = {ICDAR-W},
 abstract = {This paper proposes relation-based sequence representation that enhances offline handwritten mathematical expressions (HMEs) recognition. Commonly, a LaTeX-based sequence represents the 2D structure of an HME as a 1D sequence. Consequently, the LaTeX-based sequence becomes longer, and HME recognition systems have difficulty in extracting its 2D structure. We propose a new representation for HMEs according to the relations of symbols, which shortens the LaTeX-based representation. We use an offline end-to-end HME recognition system that adopts weakly supervised learning to evaluate the proposed representation. Recognition experiments indicate that the proposed relation-based representation helps the HME recognition system achieve higher performance than the LaTeX-based representation. In fact, the HME recognition system achieves recognition rates of 53.35{\%}, 52.14{\%}, and 53.13{\%} on the dataset of the Competition on Recognition of Online Handwritten Mathematical Expressions (CROHME) 2014, 2016, and 2019, respectively. These results are more than 2 percentage points higher than the LaTeX-based system.},
 address = {Lausane},
 author = {Truong, Thanh Nghia and Ung, Huy Quang and Nguyen, Hung Tuan and Nguyen, Cuong Tuan and Nakagawa, Masaki},
@@ -288,6 +300,7 @@ volume = {12916 LNCS},
 year = {2021}
 }
 @inproceedings{Nguyen2021a,
+abbr = {ICDAR-W},
 abstract = {We present a temporal classification constraint as an auxiliary learning method for improving the recognition of Handwritten Mathematical Expression (HME). Connectionist temporal classification (CTC) is used to learn the temporal alignment of the input feature sequence and corresponding symbol label sequence. The CTC alignment is trained with the encoder-decoder alignment through a combination of CTC loss and encoder-decoder loss to improve the feature learning of the encoder in the encoder-decoder model. We show the effectiveness of the approach in improving symbol classification and expression recognition on the CROHME datasets.},
 address = {Lausane},
 author = {Nguyen, Cuong Tuan and Nguyen, Hung Tuan and Morizumi, Kei and Nakagawa, Masaki},
@@ -304,6 +317,7 @@ volume = {12917 LNCS},
 year = {2021}
 }
 @inproceedings{Nguyen2020,
+abbr = {ICFHR},
 abstract = {Recently, the segmentation-free approach using Convolution Neural Networks (CNNs) and Recurrent Neural Networks (RNNs) for handwritten text recognition has been investigated by many research groups. Although good results are produced on some datasets, there remain some drawbacks. It is neither robust against the change of handwriting styles such as gaps between characters, stroke widths and shapes of characters nor stable for skewed, and curved text lines unless heavily trained by such patterns. In this paper, we propose a segmentation-based method for handwritten Japanese text recognition. The method employs a semantic segmentation model for precisely splitting text lines into single characters. The semantic segmentation model is based on an encoder-decoder architecture like U-Net, but we employ available techniques to improve the accuracy of pixel classification. They are a deeper encoder with ResNet 101, dilated convolutions and Spatial Pyramid Pooling. Subsequently, a CNN based OCR is used to recognize segmented character images. Finally, the recognized candidates are considered in a lattice diagram combined with a linguistic context. The result of experiments shows that the segmentation model increases the mean IoU significantly from 89.32{\%} to 94.96{\%} and the proposed approach is robust to the change of handwriting styles while a segmentation-free method is quite sensitive to them, resulting in the significant reduction of the recognition rate.},
 address = {Dortmund},
 author = {Nguyen, Kha Cong and Nguyen, Cuong Tuan and Nakagawa, Masaki},
@@ -315,6 +329,7 @@ volume = {2020-Septe},
 year = {2020}
 }
 @inproceedings{Ngo2020,
+abbr = {ICFHR},
 abstract = {This paper presents an approach for matching various sizes of excavated wooden fragments based on siamese neural networks. We propose a siamese network composed of global average pooling and a fine-tuned Resnet encoder (GA-S-net). We also propose an elaborated siamese network by replacing the global average pooling with a spatial pyramid pooling layer and add a new dense absolute difference layer (SP-S-net). Samples of 37,760 fragments were prepared from 268 complete wooden tablets excavated from the Heijo-Kyo Palace ruins used during the Nara period in Japan. Both of the networks answer whether two fragments are from the same tablet or not. The result of both networks for the testing set is similar to AUC (Area under the curve) of ROC (Receiver Operating Characteristic) curve being around 90{\%}. In AUC of large fragments, however, SP-S-net is better than GA-S-net with 97.1{\%} versus 93.8{\%}. These networks are rather new for dealing with various sizes of inputs for the matching problem.},
 address = {Dortmund},
 author = {Ngo, Trung Tan and Nguyen, Cuong Tuan and Nakagawa, Masaki},
@@ -326,6 +341,7 @@ volume = {2020-Septe},
 year = {2020}
 }
 @inproceedings{Ly2020,
+abbr = {ICFHR},
 abstract = {Handwritten Japanese text recognition is still a big challenging task due to the large character set, diversity of writing styles, and multiple-touches between characters. In this paper, we propose a model of Attention Augmented Convolutional Recurrent Network (AACRN) for recognizing handwritten Japanese text lines. The AACRN model has three main parts: A convolutional feature extractor, a self-attention based encoder, and a CTC-decoder. The whole model can be trained end-to-end. In the experiment, we evaluate the performance of the AACRN model on the TUAT Kondate dataset and the Kuzushiji dataset. The results of the experiments show that the proposed model achieves higher performance than the state-of-the-art recognition accuracies on the test set of TUAT Kondate and the Kuzushiji dataset.},
 address = {Dortmund},
 author = {Ly, Nam Tuan and Nguyen, Cuong Tuan and Nakagawa, Masaki},
@@ -337,6 +353,7 @@ volume = {2020-Septe},
 year = {2020}
 }
 @inproceedings{Nguyen2020a,
+abbr = {ICPR},
 abstract = {We propose a deep neural network-based method to recover dynamic online trajectories from offline handwritten Japanese kanji character images. It is a challenging task since Japanese kanji characters consist of multiple strokes. Our proposed model has three main components: Convolutional Neural Network-based encoder, Long Short-Term Memory Network-based decoder with an attention layer, and Gaussian Mixture Model (GMM). The encoder focuses on feature extraction while the decoder refers to the extracted features and generates time-sequences of GMM parameters. The attention layer is the key component for trajectory recovery. The GMM provides robustness to style variations so that the proposed model does not overfit to training samples. In the experiments, the proposed method is evaluated by both visual verification and handwritten character recognition. This is the first attempt to use online recovered trajectories to help improve offline handwriting recognition performance. Although the visual verification reveals some problems, the recognition experiments demonstrate the effect of trajectory recovery in improving offline handwritten character recognition accuracy when online recognition of the recovered trajectories are combined.},
 address = {Milano},
 author = {Nguyen, Hung Tuan and Nakamura, Tsubasa and Nguyen, Cuong Tuan and Nakawaga, Masaki},
@@ -347,6 +364,7 @@ title = {{Online trajectory recovery from offline handwritten Japanese kanji cha
 year = {2020}
 }
 @conference{CongNguyen2019420,
+abbr = {ICDAR},
 abstract = {Despite of recent breakthroughs in the accuracy of single character recognition using the deeper convolution neural networks, one of the remaining problems is that OCRs almost fail to recognize character patterns when they are severely degraded, especially those of the historical documents. Another problem to recognize characters in historical documents is the lack of sufficient training patterns because of the heavy cost for annotation. This paper proposes a character attention generative adversarial network named CAGAN for restoring heavily degraded character patterns in historical documents so that OCRs improve their accuracy and even help archeologists to decode them. The network is based on the U-Net like architecture [1] with skip connections, and it is trained by the proposed loss function including the common adversarial loss (global loss) and the hierarchical character attentive loss (local loss). We made an experiment on 118 categories of most common Japanese Kanji characters, collected from severely damaged historical documents called Heijokyo mokkan written during the Nara period in Japan. The experiment shows that our method restores the shapes of characters and improves the recognition rate significantly, which is helpful for archeologists to decode damaged character patterns.},
 address = {Sydney},
 annote = {cited By 0},
