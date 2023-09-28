@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='https://vgu.edu.vn/'>Vietnamese-German University </a>. Room 385, Admin Building, Ring road 4, Quarter 4, Thoi Hoa, Ben Cat, Binh Duong. cuong.nt2@vgu.edu.vn
+subtitle: <a href='https://vgu.edu.vn/'>Vietnamese-German University </a> Room 385, Admin Building, Ring road 4, Quarter 4, Thoi Hoa, Ben Cat, Binh Duong.
 
 profile:
   align: right
