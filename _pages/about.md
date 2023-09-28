@@ -3,16 +3,16 @@ layout: about
 title: About
 permalink: /
 subtitle: <a href='https://vgu.edu.vn/'>Vietnamese-German University </a>
-# . Address. Contacts. Moto. Etc.
+. Room 385, Admin Building, Ring road 4, Quarter 4, Thoi Hoa, Ben Cat, Binh Duong. cuong.nt2@vgu.edu.vn
 
 profile:
   align: right
   image: cuong.jpg
   image_circular: false # crops the image to make it circular
-  address: >
-    <p>Room 385, Admin Building </p>
-    <p>Ring road 4, Quarter 4, Thoi Hoa Ward, Ben Cat Town </p>
-    <p>Binh Duong Province, Vietnam </p>
+  # address: >
+  #   <p>Room 385, Admin Building </p>
+  #   <p>Ring road 4, Quarter 4, Thoi Hoa Ward, Ben Cat Town </p>
+  #   <p>Binh Duong Province, Vietnam </p>
 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
