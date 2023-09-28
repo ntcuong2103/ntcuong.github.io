@@ -52,15 +52,24 @@
       year: 2021-2023
       items: 
         - KAKENHI Grant-in-Aid for Early-Career Scientists (21K17761)
-        - Pricipal investigator
+        - Principal investigator
         - 4,420,000 JPY
+
+    - title: Enhancement of handwritten mathematical expression recognition through establishment of multi-dimensional structural analysis
+      year: 2019-2022
+      items: 
+        - KAKENHI Grant-in-Aid for Scientific Research (A) (19H01117)
+        - Co-investigator
+        - 37,830,000 JPY
 
     - title: A Sequence-to-sequence Model based Dissimilarity Measurement for Clustering Structural Data
       year: 2018-2020
       items: 
-        - KAKENHI Grant-in-Aid for Early-Career Scientists
-        - Pricipal investigator
+        - KAKENHI Grant-in-Aid for Early-Career Scientists (18K18068)
+        - Principal investigator
         - 4,030,000 JPY
+
+        
 
 
 - title: Academic Interests
